@@ -9,4 +9,5 @@ setup(name='googlebooks',
       author_email='ph@peter-hoffmann.com',
       url='http://www.python.org/sigs/distutils-sig/',
       py_modules=['googlebooks'],
+      requires=['requests'],
      )
